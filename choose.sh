@@ -1,5 +1,7 @@
 #!/bin/env sh
 
+exec < /dev/tty
+
 echo "Il a oublier de lock sa session, que faire ?"
 echo -e "\t0) TLock"
 echo -e "\t1) explilock"
