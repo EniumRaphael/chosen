@@ -6,7 +6,7 @@ echo -e "\t1) explilock"
 echo -e "\t2) bananalock"
 echo -e "\t3) cacafire"
 echo -e "\t4) cacaclock"
-read < /dev/tty
+read chosen < /dev/tty
 
 if [ $chosen -eq 1 ]; then
 	cacafire &
